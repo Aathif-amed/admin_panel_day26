@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Dashboard from "./Dashboard";
 
 function Sidebar() {
   return (
@@ -15,9 +14,7 @@ function Sidebar() {
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">
-          SB Admin <sup>2</sup>
-        </div>
+        <div class="sidebar-brand-text mx-3">Admin</div>
       </a>
 
       <hr class="sidebar-divider my-0" />
@@ -63,7 +60,6 @@ function Sidebar() {
         </div>
       </li>
 
-     
       <hr class="sidebar-divider" />
     </ul>
   );
